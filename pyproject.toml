@@ -1,6 +1,6 @@
 [project]
 name = "easymcserver"
-version = "0.1.2"
+version = "0.1.3"
 description = "CLI para facilitar a instalação de servidores Java e Bedrock"
 readme = "README.md"
 requires-python = ">=3.10"
