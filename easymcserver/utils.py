@@ -3,7 +3,7 @@ from psutil import virtual_memory
 from rich.panel import Panel
 from rich.console import Console
 from importlib.metadata import version
-version_str = version("easyminecraftserver")
+version_str = "0.1.1" 
 
 console = Console()
 

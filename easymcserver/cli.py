@@ -429,5 +429,4 @@ def main_menu():
             break
         
 def main():
-    clear()
     main_menu()
