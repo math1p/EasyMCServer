@@ -5,8 +5,8 @@ import subprocess # Para rodar o JAR ou o instalador
 from InquirerPy import prompt
 from rich.console import Console
 from pathlib import Path
-from easyminecraftserver.download import download_file_with_progress
-from easyminecraftserver.utils import clear, get_sys_memory
+from easymcserver.download import download_file_with_progress
+from easymcserver.utils import clear, get_sys_memory
 
 console = Console()
 

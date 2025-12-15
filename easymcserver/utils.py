@@ -10,7 +10,7 @@ console = Console()
 def display_header():
     """Exibe o cabeçalho formatado do script."""
     console.print(
-        Panel(f"[bold cyan]>>> EasyMinecraftServer {version_str} | math1p <<<[/bold cyan]", 
+        Panel(f"[bold cyan]>>> EasyMCServer {version_str} | math1p <<<[/bold cyan]", 
               border_style="green"), 
         justify="center"
     )

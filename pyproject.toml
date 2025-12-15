@@ -1,6 +1,6 @@
 [project]
-name = "easyminecraftserver"
-version = "0.1.0"
+name = "easymcserver"
+version = "0.1.1"
 description = "CLI para facilitar a instalação de servidores Java e Bedrock"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.scripts]
-easymc = "easyminecraftserver.cli:main"
+easymc = "easymcserver.cli:main"
