@@ -8,4 +8,4 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         console.print(f"Erro fatal: {e}")
-        input("Pressione Enter para sair...")   
+        input("Pressione Enter para sair...")

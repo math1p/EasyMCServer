@@ -3,27 +3,33 @@ from psutil import virtual_memory
 from rich.panel import Panel
 from rich.console import Console
 from importlib.metadata import version
-version_str = "0.1.3" 
+
+version_str = "0.1.4"
 
 console = Console()
+
 
 def display_header():
     """Exibe o cabeçalho formatado do script."""
     console.print(
-        Panel(f"[bold cyan]>>> EasyMCServer {version_str} | math1p <<<[/bold cyan]", 
-              border_style="green"), 
-        justify="center"
+        Panel(
+            f"[bold cyan]>>> EasyMCServer v{version_str} | math1p <<<[/bold cyan]",
+            border_style="green",
+        ),
+        justify="center",
     )
     console.print()
 
+
 def clear():
-    if os.name == 'nt':
-        os.system('cls')
-    elif os.name == 'linux':
-        os.system('clear')
-        
+    if os.name == "nt":
+        os.system("cls")
+    elif os.name == "linux":
+        os.system("clear")
+
     display_header()
-    
+
+
 def get_sys_memory():
     """Obtém informações de memória do sistema."""
     mem_info = virtual_memory()
