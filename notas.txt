@@ -1,0 +1,37 @@
+versão atual: v0.2
+
+futuros uptades:
+
+ideia - add o link de instalação automaticamente (incluindo as versões antigas disponiveis no https://mcversions.net/) 
+ideia - incluir opção de instalar o crafty
+planejado - adicionar outros servidores além do vanilla, como neoforge, fabric, paper e etc
+ideia - adicionar página para visualizar os mods, com data de instlação, opção de remover (mover) e etc
+ideia - configurar parâmetros da JVM pela interface CLI, parecido com a config do server.properties. Inspiração: crafty
+
+ajustes:
+- usar .startwith() para verificar a versão do java, ex.: startwith('1.8') para o java 8
+
+v0.2:
+- server.properties edit
+- jvm args edit -> criar presets também, além da config manual opicional.
+
+https://bell-sw.com/blog/guide-to-jvm-memory-configuration-options/
+https://docs.oracle.com/cd/E22289_01/html/821-1274/configuring-the-default-jvm-and-java-arguments.html
+https://www.reddit.com/r/feedthebeast/comments/cjciv9/java_argumentsjvm_explaining_them_and_commonly/?tl=pt-br
+
+v0.3:
+
+v0.5:
+
+v0.6:
+
+v0.7:
+
+v0.8:
+
+v0.9:
+
+v1.0:
+
+v2.0: 
+- gui
