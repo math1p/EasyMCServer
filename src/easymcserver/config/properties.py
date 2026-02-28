@@ -129,7 +129,7 @@ def server_properties(directory, version=None):
         configs.store(f, encoding="utf-8")
 
     console.print(
-        "\n[bold green][OK][/bold green] O arquivo server.properties atualizado!"
+        "[bold green][OK][/bold green] O arquivo server.properties atualizado!\n"
     )
     return
 
@@ -173,4 +173,4 @@ def auto_start_stop_java(directory):
 
 
 if __name__ == "__main__":
-    auto_start_stop_java("Z:\Minecraft-Vanilla11")
+    auto_start_stop_java("")
