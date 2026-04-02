@@ -23,7 +23,7 @@ Aqui é possível ver que há duas opções: "Instalar" e "Configurar"
 
  - Instalar: Selecione o tipo de servidor que deseja instalar (Java ou Bedrock)
 
- - Configurar: Selecione o diretório (a pasta) raíz do servidor. Ex.: Se o arquivo .jar/.exe está em `"C:\\Users\\mathe\\Minecraft-Server\\\\EXECUTÁVEL\_DO\_SERVIDOR"` 
+ - Configurar: Selecione o diretório (a pasta) raíz do servidor. Ex.: Se o arquivo .jar/.exe está em `"C:\Users\mathe\Minecraft-Server\EXECUTÁVEL_DO_SERVIDOR"` 
 
 ### Avisos e Erros
 
