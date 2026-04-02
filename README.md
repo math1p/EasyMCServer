@@ -8,21 +8,22 @@ Testar as configurações ideais para um servidor pode ser uma tarefa trabalhosa
 
 ## Como usar?
 
- Instale o programa com 'pip install easymcserver' (é necessário ter o Python 3 instalado caso esteja no Windows) ou baixe o executável '.exe' (somente Windows) disponível em "Releases".
+ Instale o programa com `pip install easymcserver` (é necessário ter o Python 3 instalado caso esteja no Windows) ou baixe o executável `.exe` (somente Windows) disponível em "Releases".
 
-[TIP!] No Linux, instalar pacotes junto ao sistema pode não ser uma boa ideia, prefira instlalar o programa em um ambiente virtual com: 
-'python3 -m venv venv'
-'source venv/bin/activate'
-No entanto, existe uma método mais moderno para instalar um programa com pip tanto no Linux quanto no Windows, ele (o pipx) cuida do ambiente virtual sozinho e facilita o processo. Experimente com: 'pipx install easymcserver'. No Ubuntu será necessário usar os comandos: 'sudo apt update' e 'sudo apt install pipx', além de 'pipx ensurepath'. No Windows basta usar 'pip install pipx' (com o Python já instalado). Em outras distros Linux basta adaptar o comando para usar o gerenciador de pacotes da distribuição utilizada, ex.: sudo dnf install pipx, para o Fedora.
+> [!TIP]
+No Linux, instalar pacotes junto ao sistema pode não ser uma boa ideia, prefira instlalar o programa em um ambiente virtual com:
+`python3 -m venv venv` e `source venv/bin/activate`
+No entanto, existe uma método mais moderno para instalar um programa com pip tanto no Linux quanto no Windows, ele (o pipx) cuida do ambiente virtual sozinho e facilita o processo. Experimente com: `pipx install easymcserver`. No Ubuntu será necessário usar os comandos: `sudo apt update` e `sudo apt install pipx`, além de `pipx ensurepath`. No Windows basta usar `pip install pipx` (com o Python já instalado). Em outras distros Linux basta adaptar o comando para usar o gerenciador de pacotes da distribuição utilizada, ex.: `sudo dnf install pipx`, para o Fedora.
 
-Excute o programa com 'easymc' no terminal ou execute o .exe (somente Windows) e verá uma tela parecida com essa: 
+Excute o programa com `easymc` no terminal ou execute o .exe (somente Windows) e verá uma tela parecida com essa: 
 
+> ![alt text](image-1.png)
 
 Aqui é possível ver que há duas opções: "Instalar" e "Configurar"
 
  - Instalar: Selecione o tipo de servidor que deseja instalar (Java ou Bedrock)
 
- - Configurar: Selecione o diretório (a pasta) raíz do servidor. Ex.: Se o arquivo .jar/.exe está em "C:\\Users\\mathe\\Minecraft-Server\\\\EXECUTÁVEL\_DO\_SERVIDOR" 
+ - Configurar: Selecione o diretório (a pasta) raíz do servidor. Ex.: Se o arquivo .jar/.exe está em `"C:\\Users\\mathe\\Minecraft-Server\\\\EXECUTÁVEL\_DO\_SERVIDOR"` 
 
 ### Avisos e Erros
 
