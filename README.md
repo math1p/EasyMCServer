@@ -17,7 +17,7 @@ No entanto, existe uma método mais moderno para instalar um programa com pip ta
 
 Excute o programa com `easymc` no terminal ou execute o .exe (somente Windows) e verá uma tela parecida com essa: 
 
-> ![alt text](image-1.png)
+> ![alt text](assets/image-1.png)
 
 Aqui é possível ver que há duas opções: "Instalar" e "Configurar"
 
